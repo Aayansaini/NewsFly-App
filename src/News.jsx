@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./News.css";
+import Footer from "./Footer";
 
 const API_KEY = "26703ffa784a4230a03da28f2b0d9eaf";
 
@@ -57,7 +58,7 @@ function News() {
       <nav>
         <div className="navbar obj-width">
           <a href="#" className="logo">
-            NewsApp
+            NewsFly.
           </a>
           <div>
             <input
@@ -103,6 +104,7 @@ function News() {
           </div>
         ))}
       </div>
+      <Footer/>
     </div>
   );
 }
