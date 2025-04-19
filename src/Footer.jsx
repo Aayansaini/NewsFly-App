@@ -14,8 +14,12 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content obj-width">
+        <div className="section1">
         <h2>📩 Stay Updated</h2>
+        <br />
         <p>Subscribe to get tech news delivered straight to your inbox.</p>
+        </div>
+        <div className="section2">
         <form onSubmit={handleSubmit} className="email-form">
           <input
             type="email"
@@ -26,7 +30,9 @@ function Footer() {
           />
           <button type="submit">Send</button>
         </form>
-        <p className="copyright">© 2025 NewsFly | Made with 🤍</p>
+        <br />
+        <p className="copyright">© 2025 NewsFly | Found by Aayan</p>
+        </div>
       </div>
     </footer>
   );

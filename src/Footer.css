@@ -1,54 +1,61 @@
 .footer {
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-    color: white;
-    padding: 40px 20px;
-    border-top: 1px solid #ffffff;
-    text-align: center;
-    margin-top: 60px;
-  }
-  
-  .footer-content h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .footer-content p {
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-  
-  .email-form {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 20px;
-  }
-  
-  .email-form input {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    width: 250px;
-    max-width: 90%;
-  }
-  
-  .email-form button {
-    padding: 10px 20px;
-    background-color: #f9a826;
-    color: black;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s ease;
-  }
-  
-  .email-form button:hover {
-    background-color: #ffc947;
-  }
-  
-  .copyright {
-    font-size: 14px;
-    opacity: 0.7;
-  }
-  
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  padding: 40px 20px;
+  border-top: 1px solid #ffffff;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.footer-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-content p {
+  font-size: 14px;
+  margin-bottom: 20px;
+} 
+
+.footer-content{
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+}
+
+
+.email-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.email-form input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  max-width: 90%;
+}
+
+.email-form button {
+  padding: 10px 20px;
+  background-color: #f9a826;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.email-form button:hover {
+  background-color: #ffc947;
+}
+
+.copyright {
+  font-size: 14px;
+  opacity: 0.7;
+}
